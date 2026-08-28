@@ -94,9 +94,66 @@ Training accepts `device=auto|cpu|cuda|mps` without hostname restrictions.
 modification, and small experiments; recreating the complete historical HPO
 search on CPU is not practical.
 
+A minimal fixed-configuration run uses the public Python API:
+
+```python
+from oceans_glwl.conditions import FinalSearchCondition
+from oceans_glwl.training.fixed import run_fixed_experiment
+
+condition = FinalSearchCondition(
+    "AutoLSTM",
+    input_variant="sparse_30d_smoothed_all",
+    context_days=180,
+    input_gap_days=30,
+    output_mode="seq2one_30d",
+    horizon_days=30,
+)
+result = run_fixed_experiment(
+    "data/canonical/combined_full.csv",
+    condition=condition,
+    training_config={
+        "max_steps": 1,
+        "learning_rate": 0.001,
+        "batch_size": 2,
+        "windows_batch_size": 2,
+        "scaler_type": "identity",
+        "model_kwargs": {
+            "encoder_hidden_size": 8,
+            "decoder_hidden_size": 8,
+            "encoder_n_layers": 1,
+            "encoder_dropout": 0.0,
+        },
+    },
+    device="cpu",
+    max_samples_per_split=2,
+)
+```
+
 For local single-process HPO, install `.[training,hpo]` and call
 `oceans_glwl.training.hpo.run_local_hpo`. An in-memory study is the default;
 SQLite or another Optuna URL can be supplied explicitly.
+
+```python
+from oceans_glwl.conditions import FinalSearchCondition
+from oceans_glwl.training.hpo import run_local_hpo
+
+condition = FinalSearchCondition(
+    "AutoLSTM",
+    input_variant="sparse_30d_smoothed_all",
+    context_days=180,
+    input_gap_days=30,
+    output_mode="seq2one_30d",
+    horizon_days=30,
+)
+study = run_local_hpo(
+    "data/canonical/combined_full.csv",
+    condition=condition,
+    n_trials=1,
+    device="cpu",
+    max_steps=1,
+    max_samples_per_split=2,
+)
+```
 
 ## Optional distributed execution
 
@@ -124,7 +181,8 @@ Machine-readable hashes are in `artifacts/manifests/artifacts.json`. See
 Original code is provisionally MIT-licensed. The Zenodo-derived files are not
 MIT-licensed; see `DATA_LICENSE.md`. The identifiable upstream release is
 Zenodo DOI `10.5281/zenodo.15276228`, labeled GPL-3.0-or-later at record level.
-The archive-member provenance caveat is recorded without making unsupported
-claims about underlying NOAA/GLSEA rights.
+The three preserved input CSVs have been verified byte-for-byte against the
+current official archive. No unsupported claim is made about underlying
+NOAA/GLSEA rights.
 
 Citation metadata are provided in `CITATION.cff`.

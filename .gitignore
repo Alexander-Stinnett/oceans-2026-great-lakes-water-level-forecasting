@@ -9,6 +9,19 @@ htmlcov/
 .venv/
 dist/
 build/
+tmp/
+
+# LaTeX build products.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+paper/main.pdf
 
 # Reproduction outputs are regenerated locally.
 paper/generated_tables/*.csv
@@ -19,4 +32,3 @@ paper/figures/generated/*
 runs/
 models/
 *.ckpt
-
