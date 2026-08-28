@@ -1,0 +1,3942 @@
+{
+  "analysis_policy_sha256": "4e297071daca5116bedfe2ed4e18b2d191c2ded450758838590e627d7b2005f8",
+  "frozen_index_sha256": "e456ca97d9cb72db8c06e15dc169199096c4c762394e5149ece408cde7414ef4",
+  "max_steps": 750,
+  "protocol_version": "oceans_final_search_rq3_v1",
+  "seed_count": 10,
+  "seeds": [
+    1337,
+    1338,
+    1339,
+    1340,
+    1341,
+    1342,
+    1343,
+    1344,
+    1345,
+    1346
+  ],
+  "task_count": 100,
+  "tasks": [
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1337__62a7bb9597a6",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1337__62a7bb9597a6"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1338__946deca94ee1",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1338__946deca94ee1"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1339__bf23c29f10a5",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1339__bf23c29f10a5"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1340__596d1f6eb94a",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1340__596d1f6eb94a"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1341__0a28cacfb1f6",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1341__0a28cacfb1f6"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1342__18159d951118",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1342__18159d951118"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1343__59284e8f7f38",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1343__59284e8f7f38"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1344__50db18650beb",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1344__50db18650beb"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1345__d1c8a117571e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1345__d1c8a117571e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1346__67ce518b29c7",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "source_condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "source_trial_number": 31,
+      "source_validation_rmse": 0.09554468432146439,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a__seed1346__67ce518b29c7"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1337__68c9d24e569c",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1337__68c9d24e569c"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1338__579501ae3adb",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1338__579501ae3adb"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1339__bebf88d5aebf",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1339__bebf88d5aebf"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1340__4686cf6e4cff",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1340__4686cf6e4cff"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1341__04b2e62ad10e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1341__04b2e62ad10e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1342__a183143ce5bb",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1342__a183143ce5bb"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1343__2f31d9cf652a",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1343__2f31d9cf652a"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1344__0175a3d72e9e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1344__0175a3d72e9e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1345__f88e081f56d7",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1345__f88e081f56d7"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1346__2aa746c1def8",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.07214688376617107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a__seed1346__2aa746c1def8"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1337__ad10c22a242e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1337__ad10c22a242e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1338__82c73dd19130",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1338__82c73dd19130"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1339__1006d19575a8",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1339__1006d19575a8"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1340__6c95e1371216",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1340__6c95e1371216"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1341__63c3b43dd101",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1341__63c3b43dd101"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1342__80515a3c031c",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1342__80515a3c031c"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1343__522716819e56",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1343__522716819e56"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1344__31848e234357",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1344__31848e234357"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1345__0e32f99eace6",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1345__0e32f99eace6"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1346__e62348bcc768",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "source_condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "source_trial_number": 43,
+      "source_validation_rmse": 0.04916742179338107,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632__seed1346__e62348bcc768"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1337__a278a8e879d9",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1337__a278a8e879d9"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1338__2cb8cfa5979b",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1338__2cb8cfa5979b"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1339__fadb5f753963",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1339__fadb5f753963"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1340__a0fcdf6cfb0e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1340__a0fcdf6cfb0e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1341__00670bed401e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1341__00670bed401e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1342__1761b01be383",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1342__1761b01be383"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1343__827462599903",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1343__827462599903"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1344__7effcaf9971e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1344__7effcaf9971e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1345__7fb45ff92818",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1345__7fb45ff92818"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1346__b58db8059b14",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "source_condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "source_trial_number": 39,
+      "source_validation_rmse": 0.0888252421890696,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de__seed1346__b58db8059b14"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1337__17000053f7f2",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1337__17000053f7f2"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1338__7b796a3add19",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1338__7b796a3add19"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1339__06976e0b0e4c",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1339__06976e0b0e4c"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1340__309d03194790",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1340__309d03194790"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1341__da0756b65915",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1341__da0756b65915"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1342__f3419663c1bb",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1342__f3419663c1bb"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1343__4ed7ae95c4c5",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1343__4ed7ae95c4c5"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1344__74f4d0fc4be4",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1344__74f4d0fc4be4"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1345__d6fea7641885",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1345__d6fea7641885"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1346__ac1dd25e1d13",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "source_trial_number": 36,
+      "source_validation_rmse": 0.07487816188987018,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd__seed1346__ac1dd25e1d13"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1337__e6cd8d6c76fc",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1337__e6cd8d6c76fc"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1338__bcdc9cd0bfd8",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1338__bcdc9cd0bfd8"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1339__5d89dd6d0bd9",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1339__5d89dd6d0bd9"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1340__3b64f3f1dc32",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1340__3b64f3f1dc32"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1341__33deacba6294",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1341__33deacba6294"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1342__635774d82b0b",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1342__635774d82b0b"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1343__242b2d4e9fdb",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1343__242b2d4e9fdb"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1344__db04cfcf6734",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1344__db04cfcf6734"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1345__64d5f1d0f2ab",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1345__64d5f1d0f2ab"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1346__35e8fd75139f",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "source_condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "source_trial_number": 32,
+      "source_validation_rmse": 0.09027645479564494,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3__seed1346__35e8fd75139f"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1337__bde213bd74fc",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1337__bde213bd74fc"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1338__8487ce50324d",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1338__8487ce50324d"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1339__da52187d1fbd",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1339__da52187d1fbd"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1340__648656f10b7a",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1340__648656f10b7a"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1341__b1baecbf32a5",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1341__b1baecbf32a5"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1342__7dbcad2e6ec9",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1342__7dbcad2e6ec9"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1343__b177e52ab471",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1343__b177e52ab471"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1344__2cef3feafb7c",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1344__2cef3feafb7c"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1345__716614857477",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1345__716614857477"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1346__9cfc437d2fe4",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "source_condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "source_trial_number": 18,
+      "source_validation_rmse": 0.06305867035267765,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd__seed1346__9cfc437d2fe4"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1337__8dacc1add41f",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1337__8dacc1add41f"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1338__a131dd43b1de",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1338__a131dd43b1de"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1339__b5eaae80aaf6",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1339__b5eaae80aaf6"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1340__ee8d14677e3d",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1340__ee8d14677e3d"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1341__0e60f353c93b",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1341__0e60f353c93b"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1342__78f38a66160f",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1342__78f38a66160f"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1343__5aefd9278d87",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1343__5aefd9278d87"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1344__86fb8c90139d",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1344__86fb8c90139d"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1345__e6023db6188e",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1345__e6023db6188e"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1346__3c4ca2aee23d",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "source_trial_number": 41,
+      "source_validation_rmse": 0.08899207068363102,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7__seed1346__3c4ca2aee23d"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1337__427760bd4fe4",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1337__427760bd4fe4"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1338__a62d48a6fc05",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1338__a62d48a6fc05"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1339__571efe67811a",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1339__571efe67811a"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1340__e9b674aa0d22",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1340__e9b674aa0d22"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1341__aa9d103b5d38",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1341__aa9d103b5d38"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1342__20cfb34ed633",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1342__20cfb34ed633"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1343__85158b99b4b1",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1343__85158b99b4b1"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1344__48830ec32209",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1344__48830ec32209"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1345__005d4bd84bc8",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1345__005d4bd84bc8"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1346__717936c9e2f9",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "source_trial_number": 46,
+      "source_validation_rmse": 0.027672466755059636,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066__seed1346__717936c9e2f9"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1337__3904bbc26a09",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1337,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1337__3904bbc26a09"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1338__ce4852371155",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1338,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1338__ce4852371155"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1339__a3eea1980877",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1339,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1339__a3eea1980877"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1340__d2b72e6a2c57",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1340,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1340__d2b72e6a2c57"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1341__6b9a05708b41",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1341,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1341__6b9a05708b41"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1342__284fdd723c71",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1342,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1342__284fdd723c71"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1343__3c3b58a8d4e5",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1343,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1343__3c3b58a8d4e5"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1344__b565f5a1cd36",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1344,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1344__b565f5a1cd36"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1345__b576d2476110",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1345,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1345__b576d2476110"
+    },
+    {
+      "condition_id": "ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1346__e4aac0c8478a",
+      "max_steps": 750,
+      "new_hpo": false,
+      "protocol_version": "oceans_final_search_rq3_v1",
+      "seed": 1346,
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "source_condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "source_condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "source_trial_number": 45,
+      "source_validation_rmse": 0.08337315959887116,
+      "study_name": "glm::oceans_final_search_rq3_v1::ofsrq3__ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a__seed1346__e4aac0c8478a"
+    }
+  ]
+}

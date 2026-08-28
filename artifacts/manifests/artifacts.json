@@ -1,0 +1,898 @@
+{
+  "artifacts": [
+    {
+      "bytes": 179902,
+      "category": "frozen_final_search",
+      "columns": [
+        "condition_id",
+        "source_host",
+        "source_attempt_path",
+        "condition.condition_id",
+        "condition.context_days",
+        "condition.context_rows",
+        "condition.horizon_days",
+        "condition.input_gap_days",
+        "condition.input_grid",
+        "condition.input_variant",
+        "condition.lead_days",
+        "condition.model_name",
+        "condition.objective",
+        "condition.output_mode",
+        "condition.protocol_version",
+        "condition.seed",
+        "condition.study_name",
+        "status.authoritative_only_if_queue_points_here",
+        "status.claim_started_at",
+        "status.complete_trials",
+        "status.condition_id",
+        "status.fencing_token",
+        "status.git_commit",
+        "status.status",
+        "status.study_name",
+        "status.target_n_trials",
+        "status.worker_id",
+        "best.study_name",
+        "best.training_config.accelerator",
+        "best.training_config.batch_size",
+        "best.training_config.devices",
+        "best.training_config.enable_progress_bar",
+        "best.training_config.learning_rate",
+        "best.training_config.logger",
+        "best.training_config.max_steps",
+        "best.training_config.model_kwargs.decoder_hidden_size",
+        "best.training_config.model_kwargs.encoder_dropout",
+        "best.training_config.model_kwargs.encoder_hidden_size",
+        "best.training_config.model_kwargs.encoder_n_layers",
+        "best.training_config.scaler_type",
+        "best.training_config.windows_batch_size",
+        "best.trial_number",
+        "best.validation_value",
+        "validation.endpoint_bias",
+        "validation.endpoint_mae",
+        "validation.endpoint_mse",
+        "validation.endpoint_n",
+        "validation.endpoint_rmse",
+        "validation.full_horizon_bias",
+        "validation.full_horizon_mae",
+        "validation.full_horizon_mse",
+        "validation.full_horizon_n",
+        "validation.full_horizon_rmse",
+        "validation.mean_horizon_rmse",
+        "test.endpoint_bias",
+        "test.endpoint_mae",
+        "test.endpoint_mse",
+        "test.endpoint_n",
+        "test.endpoint_rmse",
+        "test.full_horizon_bias",
+        "test.full_horizon_mae",
+        "test.full_horizon_mse",
+        "test.full_horizon_n",
+        "test.full_horizon_rmse",
+        "test.mean_horizon_rmse",
+        "best.training_config.model_kwargs.dropout_prob_theta",
+        "best.training_config.model_kwargs.mlp_units",
+        "best.training_config.model_kwargs.n_blocks",
+        "best.training_config.model_kwargs.stack_types",
+        "best.training_config.model_kwargs.dropout",
+        "best.training_config.model_kwargs.hidden_size",
+        "best.training_config.model_kwargs.n_head",
+        "best.training_config.model_kwargs.n_rnn_layers"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv"
+      ],
+      "path": "artifacts/frozen/final_search/condition_results_ALL.parquet",
+      "provenance": {
+        "final_attempt_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0"
+      },
+      "rows": 336,
+      "schema_version": "oceans_final_search_exports_v1",
+      "sha256": "310a6edae7d505d8ab6222735b87fb287b09584383d1d78bcdfe3e7a54b8d507"
+    },
+    {
+      "bytes": 35616,
+      "category": "frozen_final_search",
+      "columns": [
+        "condition_id",
+        "source_host",
+        "horizon_index",
+        "lead_days",
+        "n",
+        "mse",
+        "rmse",
+        "mae",
+        "bias"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv"
+      ],
+      "path": "artifacts/frozen/final_search/test_horizon_metrics_ALL.parquet",
+      "provenance": {
+        "final_attempt_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0"
+      },
+      "rows": 576,
+      "schema_version": "oceans_final_search_exports_v1",
+      "sha256": "83a43993f55d64de2f8e87550375ea032797facdd528cbe4a05424c1ec953881"
+    },
+    {
+      "bytes": 12282337,
+      "category": "frozen_final_search",
+      "columns": [
+        "condition_id",
+        "source_host",
+        "sample_id",
+        "unique_id",
+        "split",
+        "forecast_origin",
+        "target_timestamp",
+        "horizon_index",
+        "lead_days",
+        "is_endpoint",
+        "actual",
+        "model_name",
+        "input_variant",
+        "output_mode",
+        "context_days",
+        "prediction"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv"
+      ],
+      "path": "artifacts/frozen/final_search/test_predictions_ALL.parquet",
+      "provenance": {
+        "final_attempt_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0"
+      },
+      "rows": 1745856,
+      "schema_version": "oceans_final_search_exports_v1",
+      "sha256": "7e5c923365bb0e602a8c02d225b6e739b917e843c68d1bdc4e11240ffee677b4"
+    },
+    {
+      "bytes": 1260116,
+      "category": "frozen_final_search",
+      "columns": [
+        "condition_id",
+        "source_host",
+        "study_name",
+        "model_name",
+        "input_variant",
+        "context_days",
+        "output_mode",
+        "trial_number",
+        "state",
+        "worker_id",
+        "machine_name",
+        "accelerator_backend",
+        "start_time",
+        "completion_time",
+        "wall_seconds",
+        "optuna_wall_seconds",
+        "validation_rmse",
+        "parameters",
+        "fencing_token",
+        "git_commit"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv"
+      ],
+      "path": "artifacts/frozen/final_search/validation_trials_ALL.parquet",
+      "provenance": {
+        "final_attempt_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0"
+      },
+      "rows": 17204,
+      "schema_version": "oceans_final_search_exports_v1",
+      "sha256": "b84ef0c383aa1fd82135765cbffacaa12a6d7c371ac05ef54366fb721c755ead"
+    },
+    {
+      "bytes": 3433,
+      "category": "historical_rq3_2956_origin_analysis",
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/analysis_manifest.json",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "6d1f1813ff8870b8b915d8f5cb8738c32be488799f4a02f794874cd46b6a2b69"
+    },
+    {
+      "bytes": 10622,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "system",
+        "seed",
+        "lead_days",
+        "regime",
+        "row_count",
+        "origin_count",
+        "rmse_m",
+        "rmse_cm",
+        "mae_m",
+        "bias_m"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/architecture_180d_rmse_by_seed.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 120,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "98765764349a08845ad5989ed779df10e1a741f6e9615c977e1435a610e79b71"
+    },
+    {
+      "bytes": 9308,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "system",
+        "lead_days",
+        "regime",
+        "seed_count",
+        "origin_count",
+        "rmse_m_seed_mean",
+        "rmse_m_seed_std",
+        "rmse_m_seed_min",
+        "rmse_m_seed_max",
+        "rmse_cm_seed_mean",
+        "rmse_cm_seed_std",
+        "rmse_cm_seed_min",
+        "rmse_cm_seed_max"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/architecture_180d_seed_variability.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 12,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "0e8537e55c2a9ca475aa82711ff2930dbc1bb38debaf58d5ffe5a4cd72802fe0"
+    },
+    {
+      "bytes": 504,
+      "category": "historical_rq3_2956_origin_analysis",
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/evaluation_status.json",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "ce1d2a8b39baf00c0aee754122bfc00da9928c9e2465409976d4c2db7392cfd0"
+    },
+    {
+      "bytes": 3467617,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "rq3_refit_id",
+        "source_condition_id",
+        "seed",
+        "condition_id",
+        "sample_id",
+        "unique_id",
+        "split",
+        "forecast_origin",
+        "target_timestamp",
+        "horizon_index",
+        "lead_days",
+        "is_endpoint",
+        "actual",
+        "model_name",
+        "input_variant",
+        "output_mode",
+        "context_days",
+        "prediction",
+        "source_study_name",
+        "source_trial_number",
+        "machine_name",
+        "accelerator_backend",
+        "source_host",
+        "origin_actual",
+        "frame_target_actual",
+        "lower_tercile_m",
+        "upper_tercile_m",
+        "development_origin_count",
+        "first_development_origin",
+        "last_development_origin",
+        "threshold_period",
+        "observed_change_m",
+        "regime",
+        "inclusion_reasons",
+        "system"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/main_matched_predictions.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 372456,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "7c87c39d34216021d49072b17e794eb3f277e2624729366ba2460598c6d3b187"
+    },
+    {
+      "bytes": 5749,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "comparison_set",
+        "seed",
+        "lead_days",
+        "system",
+        "eligible_count",
+        "retained_count",
+        "excluded_count",
+        "retention_fraction"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/matching_audit.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 160,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "a2b5f34b5b9629d64808754cec858ee621debf8c2fce9366dce540c0e7090539"
+    },
+    {
+      "bytes": 5107,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "system",
+        "lead_days",
+        "regime",
+        "row_count",
+        "origin_count",
+        "rmse_m",
+        "rmse_cm"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/persistence_regime_rmse.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 18,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "dcf707ab7421387020666e5f189574683c2d3750869ca2b88a5b2236f5925955"
+    },
+    {
+      "bytes": 4570403,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "rq3_refit_id",
+        "source_condition_id",
+        "seed",
+        "condition_id",
+        "sample_id",
+        "unique_id",
+        "split",
+        "forecast_origin",
+        "target_timestamp",
+        "horizon_index",
+        "lead_days",
+        "is_endpoint",
+        "actual",
+        "model_name",
+        "input_variant",
+        "output_mode",
+        "context_days",
+        "prediction",
+        "source_study_name",
+        "source_trial_number",
+        "machine_name",
+        "accelerator_backend",
+        "source_host",
+        "origin_actual",
+        "frame_target_actual",
+        "lower_tercile_m",
+        "upper_tercile_m",
+        "development_origin_count",
+        "first_development_origin",
+        "last_development_origin",
+        "threshold_period",
+        "observed_change_m",
+        "regime",
+        "inclusion_reasons"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/regime_predictions.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 456900,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "cbf07fb0040855acca3dd5f7122dd3b616c87381f55bd2d736b38d89709a1350"
+    },
+    {
+      "bytes": 11196,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "system",
+        "lead_days",
+        "regime",
+        "seed_count",
+        "origin_count",
+        "rmse_m_seed_mean",
+        "rmse_m_seed_std",
+        "rmse_m_seed_min",
+        "rmse_m_seed_max",
+        "rmse_cm_seed_mean",
+        "rmse_cm_seed_std",
+        "rmse_cm_seed_min",
+        "rmse_cm_seed_max"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/regime_rmse_aggregate.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 36,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "5221d82ff5450f2748bb60d48192df7b59c0555ff9bcca4e24446773ee4b4773"
+    },
+    {
+      "bytes": 19847,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "system",
+        "seed",
+        "lead_days",
+        "regime",
+        "row_count",
+        "origin_count",
+        "rmse_m",
+        "rmse_cm",
+        "mae_m",
+        "bias_m"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/regime_rmse_by_seed.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 360,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "9f64f246e331e1fe53d08a5eed6dde657cd4f55caa8c5fb2382ad9e088900a2c"
+    },
+    {
+      "bytes": 5498,
+      "category": "historical_rq3_2956_origin_analysis",
+      "columns": [
+        "lead_days",
+        "lower_tercile_m",
+        "upper_tercile_m",
+        "development_origin_count",
+        "first_development_origin",
+        "last_development_origin",
+        "threshold_period"
+      ],
+      "parents": [
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/historical_analysis/regime_thresholds.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+        "forecast_origins": 2956
+      },
+      "rows": 6,
+      "schema_version": "oceans_final_search_rq3_v1_historical",
+      "sha256": "611e5a074de57e815e5c3c3097bc4efa18e872b56c32d759a2495a841ef23b62"
+    },
+    {
+      "bytes": 10620,
+      "category": "manuscript_rq3_2926_origin_analysis",
+      "columns": [
+        "system",
+        "seed",
+        "lead_days",
+        "regime",
+        "row_count",
+        "origin_count",
+        "rmse_m",
+        "rmse_cm",
+        "mae_m",
+        "bias_m"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv",
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+        "artifacts/frozen/rq3/raw/analysis_policy.json"
+      ],
+      "path": "artifacts/frozen/rq3/manuscript_analysis/architecture_180d_rmse_by_seed.parquet",
+      "provenance": {
+        "forecast_origin_end": "2023-07-04",
+        "forecast_origin_start": "2015-07-01",
+        "forecast_origins": 2926,
+        "generated_by": "scripts/reproduce_paper.py"
+      },
+      "rows": 120,
+      "schema_version": "oceans_final_search_rq3_v1_manuscript_surface",
+      "sha256": "7d6ef79e63b1a342aecd1998887d658894b31947fe80b7ea6250b57642170b0f"
+    },
+    {
+      "bytes": 6432,
+      "category": "manuscript_rq3_2926_origin_analysis",
+      "columns": [
+        "system",
+        "lead_days",
+        "regime",
+        "seed_count",
+        "origin_count",
+        "rmse_cm_seed_mean",
+        "rmse_cm_seed_std",
+        "rmse_cm_seed_min",
+        "rmse_cm_seed_max"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv",
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+        "artifacts/frozen/rq3/raw/analysis_policy.json"
+      ],
+      "path": "artifacts/frozen/rq3/manuscript_analysis/architecture_180d_seed_variability.parquet",
+      "provenance": {
+        "forecast_origin_end": "2023-07-04",
+        "forecast_origin_start": "2015-07-01",
+        "forecast_origins": 2926,
+        "generated_by": "scripts/reproduce_paper.py"
+      },
+      "rows": 12,
+      "schema_version": "oceans_final_search_rq3_v1_manuscript_surface",
+      "sha256": "c0c5bd65b1e7f15a691f96076eb5bc3f507a819ac8ac56aae4a600dcd5f40904"
+    },
+    {
+      "bytes": 5105,
+      "category": "manuscript_rq3_2926_origin_analysis",
+      "columns": [
+        "system",
+        "lead_days",
+        "regime",
+        "row_count",
+        "origin_count",
+        "rmse_m",
+        "rmse_cm"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv",
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+        "artifacts/frozen/rq3/raw/analysis_policy.json"
+      ],
+      "path": "artifacts/frozen/rq3/manuscript_analysis/persistence_regime_rmse.parquet",
+      "provenance": {
+        "forecast_origin_end": "2023-07-04",
+        "forecast_origin_start": "2015-07-01",
+        "forecast_origins": 2926,
+        "generated_by": "scripts/reproduce_paper.py"
+      },
+      "rows": 18,
+      "schema_version": "oceans_final_search_rq3_v1_manuscript_surface",
+      "sha256": "92a5021446ce393bbfcd36db8f9880bb08efe3386da7b5fae30b2eec98aa9f9c"
+    },
+    {
+      "bytes": 7455,
+      "category": "manuscript_rq3_2926_origin_analysis",
+      "columns": [
+        "system",
+        "lead_days",
+        "regime",
+        "seed_count",
+        "origin_count",
+        "rmse_cm_seed_mean",
+        "rmse_cm_seed_std",
+        "rmse_cm_seed_min",
+        "rmse_cm_seed_max"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv",
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+        "artifacts/frozen/rq3/raw/analysis_policy.json"
+      ],
+      "path": "artifacts/frozen/rq3/manuscript_analysis/regime_rmse_aggregate.parquet",
+      "provenance": {
+        "forecast_origin_end": "2023-07-04",
+        "forecast_origin_start": "2015-07-01",
+        "forecast_origins": 2926,
+        "generated_by": "scripts/reproduce_paper.py"
+      },
+      "rows": 36,
+      "schema_version": "oceans_final_search_rq3_v1_manuscript_surface",
+      "sha256": "5a2b436564220dcf9842226f0d5e06544b5b1a7b17760b9e0aea03bd5eeddf94"
+    },
+    {
+      "bytes": 19845,
+      "category": "manuscript_rq3_2926_origin_analysis",
+      "columns": [
+        "system",
+        "seed",
+        "lead_days",
+        "regime",
+        "row_count",
+        "origin_count",
+        "rmse_m",
+        "rmse_cm",
+        "mae_m",
+        "bias_m"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv",
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+        "artifacts/frozen/rq3/raw/analysis_policy.json"
+      ],
+      "path": "artifacts/frozen/rq3/manuscript_analysis/regime_rmse_by_seed.parquet",
+      "provenance": {
+        "forecast_origin_end": "2023-07-04",
+        "forecast_origin_start": "2015-07-01",
+        "forecast_origins": 2926,
+        "generated_by": "scripts/reproduce_paper.py"
+      },
+      "rows": 360,
+      "schema_version": "oceans_final_search_rq3_v1_manuscript_surface",
+      "sha256": "d5c5a6f810c7792663ba0dddf1b34faa5cab52f185d5a26ca1095c82ec226c70"
+    },
+    {
+      "bytes": 5498,
+      "category": "manuscript_rq3_2926_origin_analysis",
+      "columns": [
+        "lead_days",
+        "lower_tercile_m",
+        "upper_tercile_m",
+        "development_origin_count",
+        "first_development_origin",
+        "last_development_origin",
+        "threshold_period"
+      ],
+      "parents": [
+        "data/canonical/combined_full.csv",
+        "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+        "artifacts/frozen/rq3/raw/analysis_policy.json"
+      ],
+      "path": "artifacts/frozen/rq3/manuscript_analysis/regime_thresholds.parquet",
+      "provenance": {
+        "forecast_origin_end": "2023-07-04",
+        "forecast_origin_start": "2015-07-01",
+        "forecast_origins": 2926,
+        "generated_by": "scripts/reproduce_paper.py"
+      },
+      "rows": 6,
+      "schema_version": "oceans_final_search_rq3_v1_manuscript_surface",
+      "sha256": "611e5a074de57e815e5c3c3097bc4efa18e872b56c32d759a2495a841ef23b62"
+    },
+    {
+      "bytes": 3231,
+      "category": "frozen_rq3_raw",
+      "parents": [
+        "artifacts/frozen/final_search/condition_results_ALL.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/raw/analysis_policy.json",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49"
+      },
+      "schema_version": "oceans_final_search_rq3_v1",
+      "sha256": "4e297071daca5116bedfe2ed4e18b2d191c2ded450758838590e627d7b2005f8"
+    },
+    {
+      "bytes": 29304,
+      "category": "frozen_rq3_raw",
+      "parents": [
+        "artifacts/frozen/final_search/condition_results_ALL.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/raw/frozen_condition_index.json",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49"
+      },
+      "schema_version": "oceans_final_search_rq3_v1",
+      "sha256": "e456ca97d9cb72db8c06e15dc169199096c4c762394e5149ece408cde7414ef4"
+    },
+    {
+      "bytes": 2822390,
+      "category": "frozen_rq3_raw",
+      "columns": [
+        "rq3_refit_id",
+        "source_condition_id",
+        "seed",
+        "condition_id",
+        "sample_id",
+        "unique_id",
+        "split",
+        "forecast_origin",
+        "target_timestamp",
+        "horizon_index",
+        "lead_days",
+        "is_endpoint",
+        "actual",
+        "model_name",
+        "input_variant",
+        "output_mode",
+        "context_days",
+        "prediction",
+        "source_study_name",
+        "source_trial_number",
+        "machine_name",
+        "accelerator_backend",
+        "source_host"
+      ],
+      "parents": [
+        "artifacts/frozen/final_search/condition_results_ALL.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/raw/rq3_refit_predictions.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49"
+      },
+      "rows": 456900,
+      "schema_version": "oceans_final_search_rq3_v1",
+      "sha256": "612542ccb34bfbb60a530aeff25cbcdef0cbe04d59f9eb721b9498a238153fa2"
+    },
+    {
+      "bytes": 20543,
+      "category": "frozen_rq3_raw",
+      "columns": [
+        "rq3_refit_id",
+        "queue_identity",
+        "source_condition_id",
+        "source_study_name",
+        "source_trial_number",
+        "seed",
+        "machine_name",
+        "accelerator_backend",
+        "git_commit",
+        "fencing_token",
+        "artifact_host",
+        "source_attempt_path",
+        "status"
+      ],
+      "parents": [
+        "artifacts/frozen/final_search/condition_results_ALL.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/raw/rq3_refit_status.parquet",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49"
+      },
+      "rows": 100,
+      "schema_version": "oceans_final_search_rq3_v1",
+      "sha256": "87101cb3685fe5e223b32b43384b513c5abe98769d1cb1637853941a07e67385"
+    },
+    {
+      "bytes": 178991,
+      "category": "frozen_rq3_raw",
+      "parents": [
+        "artifacts/frozen/final_search/condition_results_ALL.parquet"
+      ],
+      "path": "artifacts/frozen/rq3/raw/seed_refit_plan.json",
+      "provenance": {
+        "analysis_commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49"
+      },
+      "schema_version": "oceans_final_search_rq3_v1",
+      "sha256": "52043dca754536bef10126f4a69cf5cdb8507e5fc185d360e44dd33ae33d4e28"
+    },
+    {
+      "bytes": 14153679,
+      "category": "canonical_dataset",
+      "parents": [
+        "data/upstream/finaldata.csv",
+        "data/upstream/test_2022.csv",
+        "data/upstream/test_2023.csv"
+      ],
+      "path": "data/canonical/combined_full.csv",
+      "provenance": {
+        "glm_commit": "832c29035d0478adaf3a78e3c2afb57e7281c8b9"
+      },
+      "rows": 15526,
+      "schema_version": "lake_superior_daily_v1",
+      "sha256": "cdb8c4e0ad99f9c3363e193306580c6403cd30079e42a6e4f8a748555edbe0b9"
+    },
+    {
+      "bytes": 2058043,
+      "category": "upstream_data",
+      "parents": [],
+      "path": "data/upstream/finaldata.csv",
+      "provenance": {
+        "license": "GPL-3.0-or-later record-level",
+        "zenodo_doi": "10.5281/zenodo.15276228"
+      },
+      "rows": 14975,
+      "schema_version": "dual_transformer_lake_superior_v1",
+      "sha256": "98e21a38cecbbbe629ced269551823bf448caa2f0413b57cb804beed9cdbf053"
+    },
+    {
+      "bytes": 47018,
+      "category": "upstream_data",
+      "parents": [],
+      "path": "data/upstream/test_2022.csv",
+      "provenance": {
+        "license": "GPL-3.0-or-later record-level",
+        "zenodo_doi": "10.5281/zenodo.15276228"
+      },
+      "rows": 365,
+      "schema_version": "dual_transformer_lake_superior_v1",
+      "sha256": "c0b4b45ed75ffea073e0aad118139a0e88084aa205ea7fa627d96377d54b5511"
+    },
+    {
+      "bytes": 47167,
+      "category": "upstream_data",
+      "parents": [],
+      "path": "data/upstream/test_2023.csv",
+      "provenance": {
+        "license": "GPL-3.0-or-later record-level",
+        "zenodo_doi": "10.5281/zenodo.15276228"
+      },
+      "rows": 365,
+      "schema_version": "dual_transformer_lake_superior_v1",
+      "sha256": "c7e66a43c7f0f539c186b3a05921420fe255ff80a347c7bfd743ee172f29de2c"
+    },
+    {
+      "bytes": 101398,
+      "category": "submitted_figure",
+      "parents": [
+        "artifacts/frozen/final_search/test_predictions_ALL.parquet"
+      ],
+      "path": "paper/figures/rq1_seq2one_180d_test_predictions.pdf",
+      "provenance": {},
+      "schema_version": "rq1_2926_origin_v1",
+      "sha256": "512ee7962eff046d4e18fe735006329dbfb984b833bb36319223eee436200168"
+    },
+    {
+      "bytes": 490919,
+      "category": "submitted_figure",
+      "parents": [
+        "artifacts/frozen/final_search/test_predictions_ALL.parquet"
+      ],
+      "path": "paper/figures/rq1_seq2one_180d_test_predictions.png",
+      "provenance": {},
+      "schema_version": "rq1_2926_origin_v1",
+      "sha256": "cf122647ccdaf81da1db40be68665c8a1cf30440641084a1df020083a29b4bd0"
+    },
+    {
+      "bytes": 101398,
+      "category": "submitted_figure",
+      "parents": [
+        "artifacts/frozen/final_search/test_predictions_ALL.parquet"
+      ],
+      "path": "paper/figures/rq1_seq2one_180d_test_predictions_styled_wip.pdf",
+      "provenance": {},
+      "schema_version": "rq1_2926_origin_v1",
+      "sha256": "512ee7962eff046d4e18fe735006329dbfb984b833bb36319223eee436200168"
+    },
+    {
+      "bytes": 35252,
+      "category": "submitted_manuscript",
+      "parents": [],
+      "path": "paper/main.tex",
+      "provenance": {},
+      "schema_version": "submitted_2026-08-28",
+      "sha256": "eb5033715552df9cc7c57488c16280d3e1e157ca7974b1f13f879bcc8eac4daf"
+    },
+    {
+      "bytes": 6994,
+      "category": "submitted_manuscript",
+      "parents": [],
+      "path": "paper/references.bib",
+      "provenance": {},
+      "schema_version": "submitted_2026-08-28",
+      "sha256": "afc06eac2472fe111c17cb5206c3056c543f323a738a9f54a759fcc2e5733e39"
+    }
+  ],
+  "created_for_migration_date": "2026-08-28",
+  "manifest_version": "1.0",
+  "source_glm_commit": "832c29035d0478adaf3a78e3c2afb57e7281c8b9"
+}

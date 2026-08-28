@@ -1,0 +1,11 @@
+device: cpu
+max_steps: 1
+max_samples_per_split: 2
+condition:
+  model_name: AutoLSTM
+  input_variant: sparse_30d_smoothed_all
+  input_gap_days: 30
+  context_days: 180
+  output_mode: seq2one_30d
+  horizon_days: 30
+

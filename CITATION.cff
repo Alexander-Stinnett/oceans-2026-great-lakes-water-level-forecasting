@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Long-Horizon and Multi-Horizon Deep Learning for Great Lakes Water-Level Forecasting"
+message: "Please cite the OCEANS 2026 paper and this software repository."
+type: software
+version: 0.1.0
+date-released: 2026-08-28
+authors:
+  - family-names: Stinnett
+    given-names: Alexander
+  - family-names: Havens
+    given-names: Timothy C.
+  - family-names: Xue
+    given-names: Pengfei
+repository-code: "https://github.com/Alexander-Stinnett/oceans-2026-great-lakes-water-level-forecasting"
+license: MIT
+

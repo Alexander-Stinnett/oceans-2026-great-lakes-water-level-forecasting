@@ -1,0 +1,96 @@
+{
+  "amended_at": "2026-08-23T02:08:58.681310+00:00",
+  "amendments": [
+    {
+      "amended_at": "2026-08-23T02:08:58.681310+00:00",
+      "code": {
+        "commit": "e77e77f8c3dabd431a132fe4b34552fa3e73372a",
+        "dirty": true
+      },
+      "new_seeds": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341,
+        1342,
+        1343,
+        1344,
+        1345,
+        1346
+      ],
+      "old_policy_fingerprint": "53b3c3bf2d1f899c41f60ecb6c1ef50de7185cbc94d00636fba3cc8f92e329ae",
+      "old_seeds": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341
+      ],
+      "reason": "Increase independent final-refit replications from five to ten before any RQ3 refit execution.",
+      "superseded_index_path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\rq3_robustness_v1\\frozen\\superseded\\53b3c3bf2d1f899c41f60ecb6c1ef50de7185cbc94d00636fba3cc8f92e329ae\\frozen_condition_index.json",
+      "superseded_index_sha256": "5d0e32619d2010e94e9ef6c1bdb23907aeba57cfba8c6d6c06fc693834a10008",
+      "superseded_plan_path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\rq3_robustness_v1\\plans\\superseded\\2c3b76c1db3e1dfb69f6233ba7edf96c8cd841a01a5f8203582932cee9ebc404\\seed_refit_plan.json",
+      "superseded_plan_sha256": "2c3b76c1db3e1dfb69f6233ba7edf96c8cd841a01a5f8203582932cee9ebc404",
+      "superseded_policy_path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\rq3_robustness_v1\\frozen\\superseded\\53b3c3bf2d1f899c41f60ecb6c1ef50de7185cbc94d00636fba3cc8f92e329ae\\analysis_policy.json",
+      "superseded_policy_sha256": "c33ef666c8bd4bd6cf746c55d6bba665b292607be20a37dabbabf365bc21e225"
+    }
+  ],
+  "code": {
+    "commit": "e77e77f8c3dabd431a132fe4b34552fa3e73372a",
+    "dirty": true
+  },
+  "created_at": "2026-08-23T01:59:25.799952+00:00",
+  "inference": "descriptive only; no tests, p-values, confidence intervals, or reselection",
+  "main_systems": [
+    "global_seq2one",
+    "global_seq2seq_6x30d",
+    "persistence"
+  ],
+  "protocol_version": "oceans_final_search_rq3_v1",
+  "refits": {
+    "cpu_training_allowed": false,
+    "evaluation_data": "test",
+    "new_hpo": false,
+    "optimizer_updates": 750,
+    "seeds": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1345,
+      1346
+    ],
+    "train_data": "train_plus_validation"
+  },
+  "regimes": {
+    "boundaries": "falling < lower; stable includes both boundaries; rising > upper",
+    "horizons_days": [
+      30,
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "interpretation": "conditional diagnostic decomposition; never a selection mechanism",
+    "quantiles": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "target": "avg_wl_lake_30",
+    "threshold_period": "combined_train_plus_validation"
+  },
+  "selection": {
+    "direction": "minimize",
+    "metric": "best.validation_value",
+    "selection_changed_by_rq3": false,
+    "source": "authoritative final-search validation exports only",
+    "test_metrics_read": false
+  },
+  "status": "refit_seed_policy_amended_before_rq3_refits"
+}

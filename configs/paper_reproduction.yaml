@@ -1,0 +1,13 @@
+evaluation:
+  forecast_origin_start: 2015-07-01
+  forecast_origin_end: 2023-07-04
+  expected_forecast_origins: 2926
+  selection_metric: best.validation_value
+rq3:
+  seeds: [1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346]
+  regime_threshold_period: combined_train_plus_validation
+  sample_standard_deviation_ddof: 1
+outputs:
+  tables: paper/generated_tables
+  figures: paper/figures/generated
+

@@ -1,0 +1,15 @@
+enabled_by_default: false
+dependency_extra: distributed
+database:
+  dialect: postgresql+psycopg
+  default_database: glm_optuna
+  default_user: horizon
+  schema: oceans_final_search
+coordination:
+  leases: true
+  fencing_tokens: true
+  heartbeat_seconds: 60
+  grace_seconds: 180
+  stale_trial_retries: 3
+warning: This preserves historical deployment behavior and is not required for scientific reproduction.
+

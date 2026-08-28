@@ -1,0 +1,34 @@
+protocol_version: oceans_final_search_v1
+condition_seed: 1337
+models: [AutoLSTM, AutoNBEATSx, AutoNHITS, AutoTFT]
+input_formulations:
+  - {name: daily_smoothed_y_raw_exog, input_gap_days: 1}
+  - {name: daily_smoothed_y_smoothed_exog, input_gap_days: 1}
+  - {name: sparse_30d_smoothed_all, input_gap_days: 30}
+context_days: [180, 360, 540, 720]
+output_formulations:
+  - {name: seq2one_30d, horizon_days: 30}
+  - {name: seq2one_60d, horizon_days: 60}
+  - {name: seq2one_90d, horizon_days: 90}
+  - {name: seq2one_120d, horizon_days: 120}
+  - {name: seq2one_150d, horizon_days: 150}
+  - {name: seq2one_180d, horizon_days: 180}
+  - {name: seq2seq_6x30d, horizon_days: 180}
+split: {train_fraction: 0.70, validation_fraction: 0.10, test_fraction: 0.20}
+training:
+  optimizer_updates: 750
+  loss: mse
+  scaler_type: standard
+hpo:
+  successful_trials_per_condition: 50
+  direction: minimize
+  objective: validation_rmse
+  sampler: TPESampler
+  n_startup_trials: 10
+  constant_liar: true
+search_space_version: oceans_final_search_space_v1
+historical_execution:
+  machines: [Sky, Lavvy, Mac]
+  backends: {Sky: cuda, Lavvy: cuda, Mac: mps}
+  note: Historical provenance only; portable execution has no hostname restriction.
+

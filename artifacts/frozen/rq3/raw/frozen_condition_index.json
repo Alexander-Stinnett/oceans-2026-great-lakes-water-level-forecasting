@@ -1,0 +1,752 @@
+{
+  "code": {
+    "commit": "e77e77f8c3dabd431a132fe4b34552fa3e73372a",
+    "dirty": false
+  },
+  "conditions": [
+    {
+      "architecture": "AutoLSTM",
+      "condition": {
+        "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a"
+      },
+      "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "context_days": 540,
+      "horizon_days": 180,
+      "inclusion_reasons": [
+        "rq1_180d_architecture_winner"
+      ],
+      "input_variant": "daily_smoothed_y_smoothed_exog",
+      "output_mode": "seq2one_180d",
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 128,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0003781312036271786,
+        "windows_batch_size": 128
+      },
+      "selection_slots": [
+        "architecture_180d_AutoLSTM"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "lavvy",
+        "path": "C:\\Users\\stinn\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a\\attempts\\lavvy__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "lavvy",
+        "trial_number": 31
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.09554468432146439
+      }
+    },
+    {
+      "architecture": "AutoLSTM",
+      "condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 120,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          120
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_120d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a"
+      },
+      "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "context_days": 360,
+      "horizon_days": 120,
+      "inclusion_reasons": [
+        "rq2_global_winner"
+      ],
+      "input_variant": "sparse_30d_smoothed_all",
+      "output_mode": "seq2one_120d",
+      "selected_params": {
+        "batch_size": 32,
+        "decoder_hidden_size": 128,
+        "encoder_dropout": 0.0,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 1,
+        "learning_rate": 0.001561250092602821,
+        "windows_batch_size": 128
+      },
+      "selection_slots": [
+        "global_seq2one_120d"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "sky",
+        "path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a\\attempts\\sky__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "sky",
+        "trial_number": 43
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.07214688376617107
+      }
+    },
+    {
+      "architecture": "AutoLSTM",
+      "condition": {
+        "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 60,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          60
+        ],
+        "model_name": "AutoLSTM",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_60d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632"
+      },
+      "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "context_days": 360,
+      "horizon_days": 60,
+      "inclusion_reasons": [
+        "rq2_global_winner"
+      ],
+      "input_variant": "sparse_30d_smoothed_all",
+      "output_mode": "seq2one_60d",
+      "selected_params": {
+        "batch_size": 16,
+        "decoder_hidden_size": 32,
+        "encoder_dropout": 0.1,
+        "encoder_hidden_size": 32,
+        "encoder_n_layers": 2,
+        "learning_rate": 0.0006136932703012411,
+        "windows_batch_size": 64
+      },
+      "selection_slots": [
+        "global_seq2one_60d"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "lavvy",
+        "path": "C:\\Users\\stinn\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632\\attempts\\lavvy__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "lavvy",
+        "trial_number": 43
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.04916742179338107
+      }
+    },
+    {
+      "architecture": "AutoNBEATSx",
+      "condition": {
+        "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNBEATSx",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      },
+      "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "context_days": 720,
+      "horizon_days": 180,
+      "inclusion_reasons": [
+        "rq2_global_winner",
+        "rq1_180d_architecture_winner"
+      ],
+      "input_variant": "sparse_30d_smoothed_all",
+      "output_mode": "seq2one_180d",
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.1,
+        "learning_rate": 0.00024291822466966846,
+        "mlp_width": 128,
+        "windows_batch_size": 64
+      },
+      "selection_slots": [
+        "global_seq2one_180d",
+        "architecture_180d_AutoNBEATSx"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "mac",
+        "path": "/Users/yichen/Alex/Horizon/oceans_final_search_results/conditions/ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de/attempts/mac__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "sky",
+        "trial_number": 39
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.0888252421890696
+      }
+    },
+    {
+      "architecture": "AutoNHITS",
+      "condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "context_days": 540,
+        "context_rows": 540,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          30,
+          60,
+          90,
+          120,
+          150,
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2seq_6x30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd"
+      },
+      "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "context_days": 540,
+      "horizon_days": 180,
+      "inclusion_reasons": [
+        "rq2_global_winner"
+      ],
+      "input_variant": "daily_smoothed_y_raw_exog",
+      "output_mode": "seq2seq_6x30d",
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 2,
+        "dropout_prob_theta": 0.2,
+        "learning_rate": 0.0024019630964057957,
+        "mlp_width": 64,
+        "windows_batch_size": 128
+      },
+      "selection_slots": [
+        "global_seq2seq_6x30d"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "sky",
+        "path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd\\attempts\\sky__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+        "trial_backend": "mps",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "mac",
+        "trial_number": 36
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.07487816188987018
+      }
+    },
+    {
+      "architecture": "AutoNHITS",
+      "condition": {
+        "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 180,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_smoothed_exog",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoNHITS",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3"
+      },
+      "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "context_days": 720,
+      "horizon_days": 180,
+      "inclusion_reasons": [
+        "rq1_180d_architecture_winner"
+      ],
+      "input_variant": "daily_smoothed_y_smoothed_exog",
+      "output_mode": "seq2one_180d",
+      "selected_params": {
+        "batch_size": 32,
+        "blocks_per_stack": 1,
+        "dropout_prob_theta": 0.0,
+        "learning_rate": 0.000128853024477022,
+        "mlp_width": 64,
+        "windows_batch_size": 64
+      },
+      "selection_slots": [
+        "architecture_180d_AutoNHITS"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "mac",
+        "path": "/Users/yichen/Alex/Horizon/oceans_final_search_results/conditions/ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3/attempts/mac__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "sky",
+        "trial_number": 32
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.09027645479564494
+      }
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition": {
+        "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "context_days": 720,
+        "context_rows": 720,
+        "horizon_days": 90,
+        "input_gap_days": 1,
+        "input_grid": "origin_relative",
+        "input_variant": "daily_smoothed_y_raw_exog",
+        "lead_days": [
+          90
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_90d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd"
+      },
+      "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "context_days": 720,
+      "horizon_days": 90,
+      "inclusion_reasons": [
+        "rq2_global_winner"
+      ],
+      "input_variant": "daily_smoothed_y_raw_exog",
+      "output_mode": "seq2one_90d",
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.1,
+        "hidden_size": 32,
+        "learning_rate": 0.0021452122927748344,
+        "n_head": 1,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "selection_slots": [
+        "global_seq2one_90d"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "sky",
+        "path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd\\attempts\\sky__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "trial_backend": "cuda",
+        "trial_git_commit": "eee5faf8e46886ca56584d2db8024a250d72886c",
+        "trial_machine": "lavvy",
+        "trial_number": 18
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.06305867035267765
+      }
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 180,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          180
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_180d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7"
+      },
+      "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "context_days": 360,
+      "horizon_days": 180,
+      "inclusion_reasons": [
+        "rq1_180d_architecture_winner"
+      ],
+      "input_variant": "sparse_30d_smoothed_all",
+      "output_mode": "seq2one_180d",
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 64,
+        "learning_rate": 0.0005803167181923634,
+        "n_head": 4,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 64
+      },
+      "selection_slots": [
+        "architecture_180d_AutoTFT"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "sky",
+        "path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7\\attempts\\sky__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "sky",
+        "trial_number": 41
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.08899207068363102
+      }
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "context_days": 360,
+        "context_rows": 12,
+        "horizon_days": 30,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          30
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_30d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066"
+      },
+      "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "context_days": 360,
+      "horizon_days": 30,
+      "inclusion_reasons": [
+        "rq2_global_winner"
+      ],
+      "input_variant": "sparse_30d_smoothed_all",
+      "output_mode": "seq2one_30d",
+      "selected_params": {
+        "batch_size": 32,
+        "dropout": 0.2,
+        "hidden_size": 32,
+        "learning_rate": 0.0017882834881313813,
+        "n_head": 2,
+        "n_rnn_layers": 1,
+        "windows_batch_size": 128
+      },
+      "selection_slots": [
+        "global_seq2one_30d"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "lavvy",
+        "path": "C:\\Users\\stinn\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066\\attempts\\lavvy__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "lavvy",
+        "trial_number": 46
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.027672466755059636
+      }
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition": {
+        "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "context_days": 720,
+        "context_rows": 24,
+        "horizon_days": 150,
+        "input_gap_days": 30,
+        "input_grid": "origin_relative",
+        "input_variant": "sparse_30d_smoothed_all",
+        "lead_days": [
+          150
+        ],
+        "model_name": "AutoTFT",
+        "objective": "validation_rmse",
+        "output_mode": "seq2one_150d",
+        "protocol_version": "oceans_final_search_v1",
+        "seed": 1337,
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a"
+      },
+      "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "context_days": 720,
+      "horizon_days": 150,
+      "inclusion_reasons": [
+        "rq2_global_winner"
+      ],
+      "input_variant": "sparse_30d_smoothed_all",
+      "output_mode": "seq2one_150d",
+      "selected_params": {
+        "batch_size": 16,
+        "dropout": 0.1,
+        "hidden_size": 128,
+        "learning_rate": 0.00047913865149423876,
+        "n_head": 2,
+        "n_rnn_layers": 2,
+        "windows_batch_size": 64
+      },
+      "selection_slots": [
+        "global_seq2one_150d"
+      ],
+      "source_attempt": {
+        "git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "host": "sky",
+        "path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\conditions\\ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a\\attempts\\sky__token_5"
+      },
+      "source_trial": {
+        "state": "COMPLETE",
+        "study_name": "glm::oceans_final_search_v1::ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "trial_backend": "cuda",
+        "trial_git_commit": "14943f0d6a923cc529ea467195edfa07a3e348c0",
+        "trial_machine": "sky",
+        "trial_number": 45
+      },
+      "validation_metric": {
+        "direction": "minimize",
+        "name": "best.validation_value",
+        "value": 0.08337315959887116
+      }
+    }
+  ],
+  "created_at": "2026-08-23T01:59:25.799952+00:00",
+  "policy_amendment": {
+    "amended_at": "2026-08-23T02:08:58.681310+00:00",
+    "code": {
+      "commit": "e77e77f8c3dabd431a132fe4b34552fa3e73372a",
+      "dirty": true
+    },
+    "new_seeds": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1345,
+      1346
+    ],
+    "old_policy_fingerprint": "53b3c3bf2d1f899c41f60ecb6c1ef50de7185cbc94d00636fba3cc8f92e329ae",
+    "old_seeds": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341
+    ],
+    "reason": "Increase independent final-refit replications from five to ten before any RQ3 refit execution.",
+    "superseded_index_path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\rq3_robustness_v1\\frozen\\superseded\\53b3c3bf2d1f899c41f60ecb6c1ef50de7185cbc94d00636fba3cc8f92e329ae\\frozen_condition_index.json",
+    "superseded_index_sha256": "5d0e32619d2010e94e9ef6c1bdb23907aeba57cfba8c6d6c06fc693834a10008",
+    "superseded_plan_path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\rq3_robustness_v1\\plans\\superseded\\2c3b76c1db3e1dfb69f6233ba7edf96c8cd841a01a5f8203582932cee9ebc404\\seed_refit_plan.json",
+    "superseded_plan_sha256": "2c3b76c1db3e1dfb69f6233ba7edf96c8cd841a01a5f8203582932cee9ebc404",
+    "superseded_policy_path": "C:\\Users\\Alex\\Horizon\\oceans_final_search_results\\rq3_robustness_v1\\frozen\\superseded\\53b3c3bf2d1f899c41f60ecb6c1ef50de7185cbc94d00636fba3cc8f92e329ae\\analysis_policy.json",
+    "superseded_policy_sha256": "c33ef666c8bd4bd6cf746c55d6bba665b292607be20a37dabbabf365bc21e225"
+  },
+  "policy_fingerprint": "d30103141f399d12a769042cc68f10deeb62db176cf3060b85936bc931853287",
+  "protocol_version": "oceans_final_search_rq3_v1",
+  "selection_data": "validation_only",
+  "selection_metric": "best.validation_value",
+  "selection_slots": [
+    {
+      "architecture": "AutoTFT",
+      "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+      "horizon_days": 30,
+      "output_mode": "seq2one_30d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2one_30d",
+      "validation_rmse": 0.027672466755059636
+    },
+    {
+      "architecture": "AutoLSTM",
+      "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+      "horizon_days": 60,
+      "output_mode": "seq2one_60d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2one_60d",
+      "validation_rmse": 0.04916742179338107
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition_id": "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+      "horizon_days": 90,
+      "output_mode": "seq2one_90d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2one_90d",
+      "validation_rmse": 0.06305867035267765
+    },
+    {
+      "architecture": "AutoLSTM",
+      "condition_id": "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+      "horizon_days": 120,
+      "output_mode": "seq2one_120d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2one_120d",
+      "validation_rmse": 0.07214688376617107
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+      "horizon_days": 150,
+      "output_mode": "seq2one_150d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2one_150d",
+      "validation_rmse": 0.08337315959887116
+    },
+    {
+      "architecture": "AutoNBEATSx",
+      "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "horizon_days": 180,
+      "output_mode": "seq2one_180d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2one_180d",
+      "validation_rmse": 0.0888252421890696
+    },
+    {
+      "architecture": "AutoNHITS",
+      "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "horizon_days": 180,
+      "output_mode": "seq2seq_6x30d",
+      "reason": "rq2_global_winner",
+      "slot": "global_seq2seq_6x30d",
+      "validation_rmse": 0.07487816188987018
+    },
+    {
+      "architecture": "AutoLSTM",
+      "condition_id": "ofs1__autolstm__daily_smoothed_y_smoothed_exog__ctx540__seq2one_180d__5377ce08298a",
+      "horizon_days": 180,
+      "output_mode": "seq2one_180d",
+      "reason": "rq1_180d_architecture_winner",
+      "slot": "architecture_180d_AutoLSTM",
+      "validation_rmse": 0.09554468432146439
+    },
+    {
+      "architecture": "AutoNBEATSx",
+      "condition_id": "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de",
+      "horizon_days": 180,
+      "output_mode": "seq2one_180d",
+      "reason": "rq1_180d_architecture_winner",
+      "slot": "architecture_180d_AutoNBEATSx",
+      "validation_rmse": 0.0888252421890696
+    },
+    {
+      "architecture": "AutoNHITS",
+      "condition_id": "ofs1__autonhits__daily_smoothed_y_smoothed_exog__ctx720__seq2one_180d__cb22e7679fc3",
+      "horizon_days": 180,
+      "output_mode": "seq2one_180d",
+      "reason": "rq1_180d_architecture_winner",
+      "slot": "architecture_180d_AutoNHITS",
+      "validation_rmse": 0.09027645479564494
+    },
+    {
+      "architecture": "AutoTFT",
+      "condition_id": "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_180d__13941b3fe1c7",
+      "horizon_days": 180,
+      "output_mode": "seq2one_180d",
+      "reason": "rq1_180d_architecture_winner",
+      "slot": "architecture_180d_AutoTFT",
+      "validation_rmse": 0.08899207068363102
+    }
+  ],
+  "slot_count": 11,
+  "source_exports": {
+    "condition_results_path": "C:\\Users\\Alex\\Horizon\\oceans_final_analysis_exports\\condition_results_ALL.parquet",
+    "condition_results_sha256": "310a6edae7d505d8ab6222735b87fb287b09584383d1d78bcdfe3e7a54b8d507",
+    "validation_trials_path": "C:\\Users\\Alex\\Horizon\\oceans_final_analysis_exports\\validation_trials_ALL.parquet",
+    "validation_trials_sha256": "b84ef0c383aa1fd82135765cbffacaa12a6d7c371ac05ef54366fb721c755ead"
+  },
+  "status": "frozen",
+  "test_metrics_read": false,
+  "unique_condition_count": 10
+}

@@ -1,0 +1,101 @@
+{
+  "artifacts": [
+    {
+      "bytes": 5498,
+      "path": "analysis\\regime_thresholds.parquet",
+      "sha256": "611e5a074de57e815e5c3c3097bc4efa18e872b56c32d759a2495a841ef23b62"
+    },
+    {
+      "bytes": 4570403,
+      "path": "analysis\\regime_predictions.parquet",
+      "sha256": "cbf07fb0040855acca3dd5f7122dd3b616c87381f55bd2d736b38d89709a1350"
+    },
+    {
+      "bytes": 3467617,
+      "path": "analysis\\main_matched_predictions.parquet",
+      "sha256": "7c87c39d34216021d49072b17e794eb3f277e2624729366ba2460598c6d3b187"
+    },
+    {
+      "bytes": 5749,
+      "path": "analysis\\matching_audit.parquet",
+      "sha256": "a2b5f34b5b9629d64808754cec858ee621debf8c2fce9366dce540c0e7090539"
+    },
+    {
+      "bytes": 19847,
+      "path": "analysis\\regime_rmse_by_seed.parquet",
+      "sha256": "9f64f246e331e1fe53d08a5eed6dde657cd4f55caa8c5fb2382ad9e088900a2c"
+    },
+    {
+      "bytes": 11196,
+      "path": "analysis\\regime_rmse_aggregate.parquet",
+      "sha256": "5221d82ff5450f2748bb60d48192df7b59c0555ff9bcca4e24446773ee4b4773"
+    },
+    {
+      "bytes": 5107,
+      "path": "analysis\\persistence_regime_rmse.parquet",
+      "sha256": "dcf707ab7421387020666e5f189574683c2d3750869ca2b88a5b2236f5925955"
+    },
+    {
+      "bytes": 10622,
+      "path": "analysis\\architecture_180d_rmse_by_seed.parquet",
+      "sha256": "98765764349a08845ad5989ed779df10e1a741f6e9615c977e1435a610e79b71"
+    },
+    {
+      "bytes": 9308,
+      "path": "analysis\\architecture_180d_seed_variability.parquet",
+      "sha256": "0e8537e55c2a9ca475aa82711ff2930dbc1bb38debaf58d5ffe5a4cd72802fe0"
+    },
+    {
+      "bytes": 504,
+      "path": "analysis\\evaluation_status.json",
+      "sha256": "ce1d2a8b39baf00c0aee754122bfc00da9928c9e2465409976d4c2db7392cfd0"
+    }
+  ],
+  "code": {
+    "commit": "a877c3a1eb89b4ccad8bd9b896c170066efcbf49",
+    "dirty": false
+  },
+  "created_at": "2026-08-23T20:12:55.439199+00:00",
+  "data": {
+    "path": "C:\\Users\\Alex\\Research Projects\\great_lakes_levels\\GLM\\data\\full_dataset\\combined_full.csv",
+    "sha256": "cdb8c4e0ad99f9c3363e193306580c6403cd30079e42a6e4f8a748555edbe0b9"
+  },
+  "manifest_type": "oceans_final_search_rq3_analysis",
+  "parents": {
+    "analysis_policy_sha256": "4e297071daca5116bedfe2ed4e18b2d191c2ded450758838590e627d7b2005f8",
+    "frozen_condition_index_sha256": "e456ca97d9cb72db8c06e15dc169199096c4c762394e5149ece408cde7414ef4",
+    "refit_exports": [
+      {
+        "bytes": 20543,
+        "path": "C:\\Users\\Alex\\Horizon\\rq3_final_export\\rq3_refit_status_sky.parquet",
+        "sha256": "87101cb3685fe5e223b32b43384b513c5abe98769d1cb1637853941a07e67385"
+      },
+      {
+        "bytes": 2822390,
+        "path": "C:\\Users\\Alex\\Horizon\\rq3_final_export\\rq3_refit_predictions_sky.parquet",
+        "sha256": "612542ccb34bfbb60a530aeff25cbcdef0cbe04d59f9eb721b9498a238153fa2"
+      }
+    ],
+    "seed_refit_plan_sha256": "52043dca754536bef10126f4a69cf5cdb8507e5fc185d360e44dd33ae33d4e28"
+  },
+  "protocol_version": "oceans_final_search_rq3_v1",
+  "refit_policy": {
+    "expected_refits": 100,
+    "optimizer_updates": 750,
+    "seed_count": 10,
+    "seeds": [
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1345,
+      1346
+    ]
+  },
+  "selection_changed": false,
+  "status": "complete"
+}

@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+dist/
+build/
+
+# Reproduction outputs are regenerated locally.
+paper/generated_tables/*.csv
+paper/generated_tables/*.tex
+paper/figures/generated/*
+
+# Local experiment outputs and model checkpoints.
+runs/
+models/
+*.ckpt
+
