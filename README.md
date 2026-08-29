@@ -1,20 +1,16 @@
-# OCEANS 2026 Great Lakes water-level forecasting
+# OCEANS 2026 Great Lakes Water-Level Forecasting
 
-This is the standalone scientific-reproduction repository for the submitted
-paper *Long-Horizon and Multi-Horizon Deep Learning for Great Lakes Water-Level
-Forecasting*. It studies Lake Superior forecasts from 30 to 180 days using
-LSTM, N-BEATSx, NHITS, and TFT models across input representations, historical
-contexts, and sequence-to-one versus sequence-to-sequence formulations.
+Code and reproducibility materials for the paper *Long-Horizon and Multi-Horizon Deep Learning for Great Lakes Water-Level Forecasting*.
 
-The repository contains immutable final-search exports, raw ten-seed RQ3 refit
-predictions, exact upstream input files, deterministic preprocessing, analysis
-code, manuscript source, table generators, and the publication figure. The
-historical GLM development repository is provenance only and is not a runtime
-dependency.
+This study evaluates Lake Superior water-level forecasting from 30 to 180 days using LSTM, N-BEATSx, NHITS, and TFT models. The experiments compare multiple input representations, historical context lengths, and sequence-to-one versus sequence-to-sequence forecasting.
+
+This repository contains the final experiment outputs used in the paper, the data-processing pipeline, RQ1–RQ3 analysis code, manuscript source, and scripts for regenerating the reported tables and figures.
 
 ## Reproduce the paper
 
-Python 3.11 or 3.12 is supported. Install the lightweight default environment:
+Python 3.11 and 3.12 are supported.
+
+On Windows:
 
 ```powershell
 python -m venv .venv
@@ -23,78 +19,102 @@ python -m venv .venv
 .\.venv\Scripts\python.exe scripts\reproduce_paper.py
 ```
 
-On Linux or macOS, replace `.\.venv\Scripts\python.exe` with
-`.venv/bin/python`.
+On Linux or macOS, replace `.\.venv\Scripts\python.exe` with `.venv/bin/python`.
 
-`requirements-lock.txt` records the complete Windows/Python 3.12 environment
-used for the final base, development, and CPU-training validation. It is a
-current reproduction lock, not a reconstruction of the historical cluster
-environment.
+Paper reproduction:
 
-Paper reproduction verifies every frozen hash, validates the 336-condition HPO
-exports, regenerates RQ1/RQ2/RQ3 tables, regenerates the RQ1 figure, and checks
-all manuscript numerical goldens. It does not import or require Torch,
-NeuralForecast, Optuna, SQLAlchemy, psycopg, Horizon, or PostgreSQL.
+* verifies the stored experiment artifacts;
+* regenerates the RQ1, RQ2, and RQ3 results;
+* regenerates the paper figure;
+* checks the numerical results against the submitted manuscript.
 
-Generated files are written to `paper/generated_tables`,
-`paper/figures/generated`, and `artifacts/frozen/rq3/manuscript_analysis`.
+Rerunning the full hyperparameter search is **not required** to reproduce the paper.
+
+`requirements-lock.txt` records the environment used for final repository validation. It should not be interpreted as a reconstruction of the original distributed experiment environment.
+
+Generated outputs are written under:
+
+```text
+paper/generated_tables/
+paper/figures/generated/
+artifacts/frozen/rq3/manuscript_analysis/
+```
 
 ## Dataset
 
-The study uses seven daily Lake Superior variables from 1981 through 2023. The
-three exact upstream files are in `data/upstream`. Deterministic preprocessing
-converts temperature units where required, constructs causal trailing averages
-at 30/60/90/120/150/180 days, and drops the first 179 incomplete rows. The
-canonical dataset has 15,526 rows and SHA-256
-`cdb8c4e0ad99f9c3363e193306580c6403cd30079e42a6e4f8a748555edbe0b9`.
+The study uses seven daily Lake Superior variables spanning 1981–2023.
 
-Rebuild it without overwriting the frozen copy:
+The three original input CSVs are stored in `data/upstream/` and were obtained from the Dual Transformer Zenodo release. The preprocessing pipeline performs the transformations used in the final experiment, including causal trailing averages at 30, 60, 90, 120, 150, and 180 days.
+
+The final dataset contains 15,526 daily rows.
+
+To rebuild it:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\rebuild_dataset.py --output tmp\combined_full.csv
 ```
 
-The build fails unless its output is byte-identical to the canonical artifact.
+The resulting file is checked against the dataset used in the final experiments.
 
-## Scientific design
+Canonical SHA-256:
 
-- Four model families: AutoLSTM, AutoNBEATSx, AutoNHITS, AutoTFT.
-- Three input representations.
-- Contexts of 180, 360, 540, and 720 days.
-- Six point horizons and one six-output formulation.
-- 336 conditions and 50 successful Optuna trials per condition.
-- Validation-only model selection; test metrics are never used for selection.
-- Final refit on combined train and validation.
+```text
+cdb8c4e0ad99f9c3363e193306580c6403cd30079e42a6e4f8a748555edbe0b9
+```
 
-The exact historical configuration and search space are preserved in
-`configs/historical_oceans_final_search.yaml` and
-`src/oceans_glwl/training/search_space.py`.
+## Experimental design
 
-## RQ3 historical-analysis note
+The final search evaluated:
 
-The historical RQ3 analysis implementation did not explicitly enforce the
-lower held-out test-period boundary when constructing the common
-forecast-origin surface. Its archived derived products include 30 pre-test
-origins from June 2015. The submitted manuscript uses the declared held-out
-interval from July 1, 2015 through July 4, 2023, exactly 2,926 origins. This
-repository enforces that interval and reproduces all manuscript RQ3 values from
-the frozen row-level refit predictions. Historical 2,956-origin products remain
-unchanged under `artifacts/frozen/rq3/historical_analysis`.
+* four architectures: LSTM, N-BEATSx, NHITS, and TFT;
+* three input representations;
+* context lengths of 180, 360, 540, and 720 days;
+* sequence-to-one forecasts at 30, 60, 90, 120, 150, and 180 days;
+* one sequence-to-sequence formulation predicting all six horizons.
 
-## Local training and HPO
+This produced 336 experimental conditions with 50 completed Optuna trials per condition.
 
-Install training support:
+Hyperparameters were selected using validation performance only. The selected configurations were then refit using the combined training and validation data before final test evaluation.
+
+The exact search configuration is preserved in:
+
+```text
+configs/historical_oceans_final_search.yaml
+src/oceans_glwl/training/search_space.py
+```
+
+## RQ3 reproduction note
+
+The original RQ3 analysis code included 30 forecast origins from June 2015 before the declared test interval. The submitted paper uses the intended held-out evaluation period from July 1, 2015 through July 4, 2023, giving 2,926 forecast origins.
+
+The reproduction code explicitly applies this interval and reproduces all RQ3 values reported in the manuscript from the saved row-level refit predictions.
+
+The original 2,956-origin analysis outputs are retained for provenance under:
+
+```text
+artifacts/frozen/rq3/historical_analysis/
+```
+
+## Local training
+
+Install the training dependencies:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[training]"
 ```
 
-Training accepts `device=auto|cpu|cuda|mps` without hostname restrictions.
-`auto` chooses CUDA, then MPS, then CPU. CPU support is intended for tests,
-modification, and small experiments; recreating the complete historical HPO
-search on CPU is not practical.
+Training supports:
 
-A minimal fixed-configuration run uses the public Python API:
+```text
+auto
+cpu
+cuda
+mps
+```
+
+`auto` selects CUDA when available, followed by MPS and then CPU.
+
+A minimal example:
 
 ```python
 from oceans_glwl.conditions import FinalSearchCondition
@@ -108,6 +128,7 @@ condition = FinalSearchCondition(
     output_mode="seq2one_30d",
     horizon_days=30,
 )
+
 result = run_fixed_experiment(
     "data/canonical/combined_full.csv",
     condition=condition,
@@ -129,9 +150,17 @@ result = run_fixed_experiment(
 )
 ```
 
-For local single-process HPO, install `.[training,hpo]` and call
-`oceans_glwl.training.hpo.run_local_hpo`. An in-memory study is the default;
-SQLite or another Optuna URL can be supplied explicitly.
+CPU support is intended primarily for testing and smaller experiments. Reproducing the complete historical HPO search requires substantially more compute.
+
+## Local HPO
+
+Install the HPO dependencies:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -e ".[training,hpo]"
+```
+
+A local Optuna search can be run through `run_local_hpo`:
 
 ```python
 from oceans_glwl.conditions import FinalSearchCondition
@@ -145,6 +174,7 @@ condition = FinalSearchCondition(
     output_mode="seq2one_30d",
     horizon_days=30,
 )
+
 study = run_local_hpo(
     "data/canonical/combined_full.csv",
     condition=condition,
@@ -155,34 +185,78 @@ study = run_local_hpo(
 )
 ```
 
-## Optional distributed execution
+The default uses an in-memory Optuna study. Other Optuna storage backends can also be supplied.
 
-Historical PostgreSQL queue, leasing, fencing, planning, worker, and host-export
-support lives under `oceans_glwl.optional.distributed`. Install
-`.[training,distributed]` only if needed. No default path imports it.
+## Distributed execution
+
+The final experiments were executed using distributed infrastructure built around PostgreSQL-backed experiment coordination.
+
+That implementation is retained under:
+
+```text
+oceans_glwl.optional.distributed
+```
+
+It is optional and is not required for reproducing the paper or running local experiments.
+
+Install it with:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -e ".[training,distributed]"
+```
 
 ## Tests
+
+Install development dependencies and run:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[dev]"
 .\.venv\Scripts\python.exe -m pytest -q
 ```
 
-Training and distributed integration tests are separately marked. The default
-suite covers hashes, deterministic preprocessing, condition IDs, HPO exports,
-prediction identities, RQ1/RQ2/RQ3 goldens, origin boundaries, and portable
-device resolution.
+The test suite covers dataset reconstruction, experimental-condition generation, frozen HPO outputs, prediction identities, RQ1–RQ3 reproduction, evaluation boundaries, and device selection.
 
-## Provenance, licensing, and citation
+## Repository structure
 
-Machine-readable hashes are in `artifacts/manifests/artifacts.json`. See
-`docs/provenance.md` and `docs/reproducibility.md` for lineage.
+```text
+src/oceans_glwl/       Scientific implementation
+configs/               Historical and reproduction configurations
+data/                  Upstream and processed data
+artifacts/frozen/      Final experiment outputs
+paper/                 Submitted manuscript and generated outputs
+scripts/               Reproduction and verification commands
+tests/                 Automated tests
+docs/                  Reproducibility and provenance documentation
+```
 
-Original code is provisionally MIT-licensed. The Zenodo-derived files are not
-MIT-licensed; see `DATA_LICENSE.md`. The identifiable upstream release is
-Zenodo DOI `10.5281/zenodo.15276228`, labeled GPL-3.0-or-later at record level.
-The three preserved input CSVs have been verified byte-for-byte against the
-current official archive. No unsupported claim is made about underlying
-NOAA/GLSEA rights.
+## Provenance
+
+Artifact hashes and metadata are recorded in:
+
+```text
+artifacts/manifests/artifacts.json
+```
+
+Additional details are available in:
+
+* `docs/provenance.md`
+* `docs/reproducibility.md`
+* `docs/artifact_inventory.md`
+
+## Licensing
+
+Repository source code is licensed under the MIT License.
+
+The upstream dataset and other preserved external materials are not covered by the repository's MIT license. See `DATA_LICENSE.md` for details.
+
+The Lake Superior input files were obtained from:
+
+**Chen, Y. and Xue, P.**
+*Dual-Transformer Deep Learning Framework for Seasonal Forecasting of Great Lakes Water Levels*
+Zenodo: `10.5281/zenodo.15276228`
+
+The three input CSVs preserved here were verified byte-for-byte against the corresponding files in the current Zenodo archive.
+
+## Citation
 
 Citation metadata are provided in `CITATION.cff`.
