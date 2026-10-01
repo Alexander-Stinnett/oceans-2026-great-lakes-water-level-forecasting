@@ -1,0 +1,21 @@
+{
+  "figure": "lake_superior_water_level_30_day_moving_average",
+  "source_data": "data/canonical/combined_full.csv",
+  "source_data_sha256": "cdb8c4e0ad99f9c3363e193306580c6403cd30079e42a6e4f8a748555edbe0b9",
+  "series": "avg_wl_lake_30",
+  "split_starts": {
+    "train": "1981-06-29",
+    "validation": "2011-04-01",
+    "test": "2015-07-01"
+  },
+  "outputs": {
+    "pdf": {
+      "path": "lake_superior_water_level_30_day_moving_average.pdf",
+      "sha256": "cc34c0d379947d25f078cb26e0d4f7368bf168386f2a4bb7f9f69a2d8e541ddc"
+    },
+    "png": {
+      "path": "lake_superior_water_level_30_day_moving_average.png",
+      "sha256": "2ff50ddee2c69dc25963c625ea9a3196043afbfd225bb8e3961e5afea4145e37"
+    }
+  }
+}

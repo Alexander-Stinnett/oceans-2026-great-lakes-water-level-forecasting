@@ -1,0 +1,42 @@
+{
+  "figure": "test_water_level_groups_180_day_change",
+  "source_data": "data/canonical/combined_full.csv",
+  "source_data_sha256": "cdb8c4e0ad99f9c3363e193306580c6403cd30079e42a6e4f8a748555edbe0b9",
+  "saved_thresholds": "artifacts/frozen/rq3/manuscript_analysis/regime_thresholds.parquet",
+  "saved_thresholds_sha256": "611e5a074de57e815e5c3c3097bc4efa18e872b56c32d759a2495a841ef23b62",
+  "lead_days": 180,
+  "target_period": {
+    "start": "2015-12-28",
+    "end": "2023-12-31",
+    "count": 2926
+  },
+  "thresholds_m": {
+    "lower_tercile": -0.13871666666668148,
+    "upper_tercile": 0.11270000000004643
+  },
+  "classification": "falling: change < lower; stable: lower <= change <= upper; rising: change > upper",
+  "regime_shading": {
+    "colors": {
+      "rising": "#D1495B",
+      "stable": "#2A9D8F",
+      "falling": "#277DA1"
+    },
+    "alpha": 0.22
+  },
+  "regime_counts": {
+    "falling": 949,
+    "rising": 944,
+    "stable": 1033
+  },
+  "contiguous_span_count": 32,
+  "outputs": {
+    "pdf": {
+      "path": "test_water_level_groups_180_day_change.pdf",
+      "sha256": "4ef3b6ce204e14baf5b2e11b9f84b3b00e2f626a654ff43a1e1636c8c8cb3561"
+    },
+    "png": {
+      "path": "test_water_level_groups_180_day_change.png",
+      "sha256": "c04891da6980b2edc5f9f192d92ad5d045810c3cfa183590457a0a97f376ee7d"
+    }
+  }
+}

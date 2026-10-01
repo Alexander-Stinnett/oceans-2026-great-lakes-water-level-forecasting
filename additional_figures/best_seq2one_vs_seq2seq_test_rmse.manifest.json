@@ -1,0 +1,86 @@
+{
+  "figure": "best_seq2one_vs_seq2seq_test_rmse",
+  "source_artifacts": {
+    "condition_results": {
+      "path": "artifacts/frozen/final_search/condition_results_ALL.parquet",
+      "sha256": "310a6edae7d505d8ab6222735b87fb287b09584383d1d78bcdfe3e7a54b8d507"
+    },
+    "test_horizon_metrics": {
+      "path": "artifacts/frozen/final_search/test_horizon_metrics_ALL.parquet",
+      "sha256": "83a43993f55d64de2f8e87550375ea032797facdd528cbe4a05424c1ec953881"
+    },
+    "test_predictions": {
+      "path": "artifacts/frozen/final_search/test_predictions_ALL.parquet",
+      "sha256": "7e5c923365bb0e602a8c02d225b6e739b917e843c68d1bdc4e11240ffee677b4"
+    },
+    "validation_trials": {
+      "path": "artifacts/frozen/final_search/validation_trials_ALL.parquet",
+      "sha256": "b84ef0c383aa1fd82135765cbffacaa12a6d7c371ac05ef54366fb721c755ead"
+    }
+  },
+  "selection": "lowest validation RMSE per output formulation",
+  "metric": "test RMSE (cm)",
+  "y_axis_lower_bound_cm": 3.3981272125561848,
+  "evaluation_surface": {
+    "forecast_origins": 2926
+  },
+  "horizons_days": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "series": {
+    "seq2one": {
+      "models": [
+        "AutoTFT",
+        "AutoLSTM",
+        "AutoTFT",
+        "AutoLSTM",
+        "AutoTFT",
+        "AutoNBEATSx"
+      ],
+      "condition_ids": [
+        "ofs1__autotft__sparse_30d_smoothed_all__ctx360__seq2one_30d__46c32a89a066",
+        "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_60d__a7650318b632",
+        "ofs1__autotft__daily_smoothed_y_raw_exog__ctx720__seq2one_90d__3858209314dd",
+        "ofs1__autolstm__sparse_30d_smoothed_all__ctx360__seq2one_120d__c24073a2022a",
+        "ofs1__autotft__sparse_30d_smoothed_all__ctx720__seq2one_150d__f9b8d69e831a",
+        "ofs1__autonbeatsx__sparse_30d_smoothed_all__ctx720__seq2one_180d__a6d7a9c161de"
+      ],
+      "test_rmse_cm": [
+        3.748127212556185,
+        6.5453978444065575,
+        9.0512668490901,
+        10.379907108907528,
+        10.807644348853948,
+        12.202414865920387
+      ]
+    },
+    "seq2seq": {
+      "model": "AutoNHITS",
+      "condition_id": "ofs1__autonhits__daily_smoothed_y_raw_exog__ctx540__seq2seq_6x30d__9414a1b54ccd",
+      "test_rmse_cm": [
+        4.3352307293471695,
+        6.781730613345427,
+        8.45941290010346,
+        9.485790315576285,
+        10.401400088386318,
+        11.557564239140154
+      ]
+    }
+  },
+  "mean_relative_difference_percent": -0.820285706388917,
+  "outputs": {
+    "pdf": {
+      "path": "best_seq2one_vs_seq2seq_test_rmse.pdf",
+      "sha256": "6260cd68485141a088c98e6ed81b248e1cf23541d87e5198c44d6530628e55ef"
+    },
+    "png": {
+      "path": "best_seq2one_vs_seq2seq_test_rmse.png",
+      "sha256": "d2e39c36bad9dc5b602471e34be99a1175a56b9858756b22287a0dc5dae75064"
+    }
+  }
+}

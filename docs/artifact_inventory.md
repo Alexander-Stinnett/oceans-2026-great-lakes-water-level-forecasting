@@ -38,6 +38,11 @@ files under `paper/figures` retain the submitted RQ1 figure and a stable clean
 alias. `paper/figures/generated/` and `paper/generated_tables/` are ignored
 working outputs regenerated from frozen evidence.
 
+`additional_figures/` contains tracked supplemental presentation figures. Their
+generators live in `src/oceans_glwl/plotting/`; each figure is accompanied by a
+manifest with repository-relative source paths and content hashes. These
+figures are supplemental and do not replace the submitted manuscript evidence.
+
 ## Reviewed code migration
 
 | Publication file | Historical GLM source or disposition |

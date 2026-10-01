@@ -32,6 +32,20 @@ Rerunning the full hyperparameter search is **not required** to reproduce the pa
 
 `requirements-lock.txt` records the environment used for final repository validation. It should not be interpreted as a reconstruction of the original distributed experiment environment.
 
+## Supplemental figures
+
+`additional_figures/` contains reproducible presentation figures derived from
+the canonical dataset and frozen experiment artifacts. Each PNG/PDF pair has a
+JSON manifest recording repository-relative source paths and SHA-256 hashes.
+Regenerate the set with:
+
+```powershell
+.\.venv\Scripts\python.exe -m oceans_glwl.plotting.forecasting_formulations
+.\.venv\Scripts\python.exe -m oceans_glwl.plotting.historical_water_level
+.\.venv\Scripts\python.exe -m oceans_glwl.plotting.rq2_best_models_rmse
+.\.venv\Scripts\python.exe -m oceans_glwl.plotting.test_water_level_groups
+```
+
 Generated outputs are written under:
 
 ```text

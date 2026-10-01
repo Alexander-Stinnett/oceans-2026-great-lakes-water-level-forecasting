@@ -1,0 +1,40 @@
+{
+  "figure": "forecasting_formulations",
+  "concept_source": "configs/historical_oceans_final_search.yaml",
+  "concept_source_sha256": "e521a1c9a9c6657004375e901650113b04100f2699950797c03121199b58ab05",
+  "single_horizon_outputs": [
+    "y_(t+30)",
+    "y_(t+60)",
+    "y_(t+90)",
+    "y_(t+120)",
+    "y_(t+150)",
+    "y_(t+180)"
+  ],
+  "single_horizon_available_leads_days": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "multi_horizon_output_mode": "seq2seq_6x30d",
+  "multi_horizon_leads_days": [
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "outputs": {
+    "pdf": {
+      "path": "forecasting_formulations.pdf",
+      "sha256": "eb7fb215641e58c741e71d39d54b0d4eaaa25599954b4e374d4c3f9be1404d65"
+    },
+    "png": {
+      "path": "forecasting_formulations.png",
+      "sha256": "6506d1e70df4725fc6dc3e1df6cc8adc493e1c4e76ac2c161c0fc93edb96e7a7"
+    }
+  }
+}
